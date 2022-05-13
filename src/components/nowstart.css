@@ -1,0 +1,21 @@
+.now_cont {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 80px;
+  font-weight: 600;
+  color: #4b5663;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  align-items: center;
+}
+.now_but {
+  width: 300px;
+  height: 70px;
+  border: none;
+  background-color: #1f28eb;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
+  border-radius: 9px;
+}

@@ -1,0 +1,26 @@
+.faq_cont {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #f1f6fd;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.faq_left {
+  width: 250px;
+}
+.faq_left h1 {
+  margin-top: 4rem;
+}
+.faq_right {
+  width: 760px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.faq_right > div {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+}

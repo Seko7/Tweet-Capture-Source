@@ -1,0 +1,35 @@
+.footer_cont {
+  width: 1232px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_mid {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.footer_mid img {
+  width: 20px;
+  display: flex;
+}
+.footer_left,
+.footer_right {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #212121;
+}
+.footer_left p:hover {
+  cursor: pointer;
+}
+.footer_mid img:hover {
+  cursor: pointer;
+}
+.footer_right p:hover {
+  cursor: pointer;
+}
